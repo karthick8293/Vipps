@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kezIuzeweW1KF8X4lawode7H5kkdDiGlui6nExHffsUapKOYr7F0h4eDzxsHlGxqf40kXDghvFQIcrzXwi26Iw==",
+  "success": true,
+  "projectFilePath": "G:\\Git\\Vipps\\Vipps\\Vipps.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Karthick\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}
