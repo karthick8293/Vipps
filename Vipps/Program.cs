@@ -1,7 +1,17 @@
+using Vipps.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Host.ConfigureAppConfiguration(config =>
+{
+    config.AddJsonFile("appsettings.json");
+});
+builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
+
+builder.Services.AddControllers();
 
 var app = builder.Build();
 
